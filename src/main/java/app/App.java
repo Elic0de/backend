@@ -10,7 +10,7 @@ import java.util.List;
 
 public class App extends Jooby {
 
-  private List<Schedule> schedules = new ArrayList<>();
+  private final List<Schedule> schedules = new ArrayList<>();
   private int idCounter = 1;
 
   public static class Schedule {
